@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="524892f8-91f5-4c2b-9e2f-5e234ded3520" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/DivideAndConquerAlgorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/a02_part2/DivideAndConquerAlgorithms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/MyDynamicList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/a02_part2/MyDynamicList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/MyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/a02_part2/MyMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/MyNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/a02_part2/MyNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DivideAndConquerAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivideAndConquerAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyDynamicList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyDynamicList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyStaticList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyStaticList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,12 +35,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2012" />
+          <entry key="java" value="5845" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2012" />
+          <entry key="JAVA" value="5845" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DivideAndConquerAlgorithms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+            <state relative-caret-position="-68">
+              <caret line="296" column="8" selection-start-line="296" selection-start-column="8" selection-end-line="296" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -68,11 +59,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="1329">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
               <folding>
-                <element signature="e#3014#3015#0" expanded="true" />
-                <element signature="e#3028#3029#0" expanded="true" />
+                <element signature="e#3116#3117#0" expanded="true" />
+                <element signature="e#3130#3131#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,7 +127,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543337274711" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543418101299" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -193,7 +184,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921347" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26516855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -246,19 +237,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="1329">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
           <folding>
-            <element signature="e#3014#3015#0" expanded="true" />
-            <element signature="e#3028#3029#0" expanded="true" />
+            <element signature="e#3116#3117#0" expanded="true" />
+            <element signature="e#3130#3131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DivideAndConquerAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+        <state relative-caret-position="-68">
+          <caret line="296" column="8" selection-start-line="296" selection-start-column="8" selection-end-line="296" selection-end-column="8" />
         </state>
       </provider>
     </entry>
