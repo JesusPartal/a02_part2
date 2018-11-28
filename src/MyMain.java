@@ -83,10 +83,10 @@ public class MyMain {
 		//----------------------------
 		//4. We test concatenate
 		//----------------------------
-//		System.out.println("\n----------- Test: concatenate -------------\n");
-//
-//		resM = ex.concatenate(m1, m2);
-//		ex.recursiveDisplayElements(resM);
+		System.out.println("\n----------- Test: concatenate -------------\n");
+
+		resM = ex.concatenate(m1, m2);
+		ex.recursiveDisplayElements(resM);
 //
 //		resM = ex.concatenate(m2, m1);
 //		ex.recursiveDisplayElements(resM);

@@ -235,17 +235,19 @@ public class DivideAndConquerAlgorithms {
 		int scenario = 0;
 
         //Rule 1. MyList m1 is empty
-        if (m1.length() == 0)
+        if (m1.length() == 0 && m2.length() == 0)
             scenario = 1;
         else{
             //Rule 2. MyList m2 is empty
-            if (m2.length() == 0)
+            if (m1.length() == 0)
                 scenario = 2;
+            else if (m2.length() == 0)
+                scenario = 3;
             //Rule 3. m1 and m2 are not empty
             else{
                 int m1E0 = m1.getElement(0);
                 int m2E0 = m2.getElement(0);
-                scenario = 3;
+                scenario = 4;
             }
         }
 		
@@ -255,13 +257,27 @@ public class DivideAndConquerAlgorithms {
 		switch(scenario){
             case 1:
                 System.out.println("Case 1");
+                res = new MyDynamicList<>();
                 break;
             case 2:
                 System.out.println("Case 2");
+                res = new MyDynamicList<>();
+                int e0 = m2.getElement(0);
+                m2.removeElement(0);
+                res = concatenate(m1, m2);
+                res.addElement(0, e0);
+                m2.addElement(0, e0);
                 break;
             case 3:
                 System.out.println("Case 3");
-
+                res = new MyDynamicList<>();
+                e0 = m1.getElement(0);
+                m1.removeElement(0);
+                res = concatenate(m1, m2);
+                res.addElement(0, e0);
+                m1.addElement(0, e0);
+                break;
+            case 4:
                 break;
 		}
 			
