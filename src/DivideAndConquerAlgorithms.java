@@ -295,30 +295,12 @@ public class DivideAndConquerAlgorithms {
 	 * @return: The new MyList being sorted.	  	  
 	 */	  
 	public MyList<Integer> quickSort(MyList<Integer> m){
-		//algorithm quickSort(m)
-		//Pre: m != 0
-		//Post: list sorted into values of ascending order
-		//if m.length = 1 // already sorted
-		//  return
-		//end if
-		//pivot <- MedianValue(m) (not necessarily)
-		//for i<-0 to m.length -1
-		//  if m[i] = pivot
-		//    equal.Insert(m[i])
-		//  end if
-		//  if list[i] < pivot
-		//    less.Insert(m[i])
-		//  end if
-		//  if list[i] > pivot
-		//     greater.Insert(m[i])
-		//  end if
-		//end for
-		//return Concatenate(QuickSort(less), equal, QuickSort(greater))
-		//end quicksort
 		//-----------------------------
 		//Output Variable --> InitialValue
 		//-----------------------------
 		MyList<Integer> res = null;
+		MyList<Integer> lesser =  null;
+		MyList<Integer> greater = null;
 
 		//-----------------------------
 		//SET OF OPS
@@ -328,7 +310,7 @@ public class DivideAndConquerAlgorithms {
 		//-----------------------------
 		// I. SCENARIO IDENTIFICATION
 		//-----------------------------
-		int scenario = 0;
+		int scenario;
 
 		if (m.length() == 0)
 		    scenario = 1;
@@ -345,28 +327,45 @@ public class DivideAndConquerAlgorithms {
                 res = new MyDynamicList<>();
                 break;
             case 2:
-                res = new MyDynamicList<>();
-                res.addElement(0, m.getElement(0));
-                break;
+                return m;
             case 3:
-                res = new MyDynamicList<>();
-                int pivot = m.getElement(m.length()-1);
-                int idx = m.getElement(0);
-                m.removeElement(0);
-                res = quickSort(m);
-                if (idx < pivot)
-                    res.addElement(0, idx);
-                m.addElement(0, idx);
-                break;
-		}
+            	if (m.getElement(0) < m.getElement(m.length() -1)) {
+            		int partitionIndex = partition(m, m.getElement(0), m.getElement(m.length()-1));
+            		for (int i=0; i < m.length(); i++) {
+            			if (i < partitionIndex)
+            				lesser.addElement(i, m.getElement(i));
+            			else
+            				greater.addElement(i, m.getElement(i));
+					}
+					quickSort(lesser);
+            		quickSort(greater);
+				}
 
-	
+		}
 		//-----------------------------
 		//Output Variable --> Return FinalValue
 		//-----------------------------		
 		return res;		
 	}
 
+	private int partition (MyList<Integer>m, int low, int high) {
+		int pivot = high;
+		int i = low - 1;
 
+		for (int j = low; j <= high; j++) {
+			if(m.getElement(j) <= pivot) {
+				i++;
+				int temp = m.getElement(i);
+				m.addElement(i, m.getElement(j));
+				m.addElement(j, temp);
+			}
+		}
+
+		int temp2 = m.getElement(i+1);
+		m.addElement(i+1, high);
+		m.addElement(high, temp2);
+
+		return (i+1);
+	}
 	
 }
