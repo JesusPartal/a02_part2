@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="524892f8-91f5-4c2b-9e2f-5e234ded3520" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/DivideAndConquerAlgorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/a02_part2/DivideAndConquerAlgorithms.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/MyDynamicList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/a02_part2/MyDynamicList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/a02_part2/MyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/MyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/a02_part2/MyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/MyNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/a02_part2/MyNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/MyStaticList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/a02_part2/MyStaticList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DivideAndConquerAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivideAndConquerAlgorithms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyMain.java" afterDir="false" />
     </list>
@@ -44,14 +53,32 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="335624262">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="614" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="614" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DivideAndConquerAlgorithms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="349" column="4" selection-start-line="349" selection-start-column="4" selection-end-line="349" selection-end-column="4" />
+            <state relative-caret-position="-189">
+              <caret line="303" column="51" selection-start-line="303" selection-start-column="51" selection-end-line="303" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -59,12 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="94" selection-end-column="42" />
-              <folding>
-                <element signature="e#3116#3117#0" expanded="true" />
-                <element signature="e#3130#3131#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1634">
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -93,11 +116,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="216" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="207" />
     <option name="width" value="1400" />
-    <option name="height" value="982" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -105,9 +127,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,10 +193,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="216" y="23" width="1400" height="982" extended-state="0" />
-    <editor active="true" />
+    <frame x="207" y="0" width="1400" height="867" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -184,7 +204,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26516855" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26466575" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -192,7 +212,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32921347" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3287858" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -237,19 +257,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="94" selection-end-column="42" />
-          <folding>
-            <element signature="e#3116#3117#0" expanded="true" />
-            <element signature="e#3130#3131#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1634">
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DivideAndConquerAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="349" column="4" selection-start-line="349" selection-start-column="4" selection-end-line="349" selection-end-column="4" />
+        <state relative-caret-position="-189">
+          <caret line="303" column="51" selection-start-line="303" selection-start-column="51" selection-end-line="303" selection-end-column="51" />
         </state>
       </provider>
     </entry>

@@ -295,6 +295,26 @@ public class DivideAndConquerAlgorithms {
 	 * @return: The new MyList being sorted.	  	  
 	 */	  
 	public MyList<Integer> quickSort(MyList<Integer> m){
+		//algorithm quickSort(m)
+		//Pre: m != 0
+		//Post: list sorted into values of ascending order
+		//if m.length = 1 // already sorted
+		//  return
+		//end if
+		//pivot <- MedianValue(m) (not necessarily)
+		//for i<-0 to m.length -1
+		//  if m[i] = pivot
+		//    equal.Insert(m[i])
+		//  end if
+		//  if list[i] < pivot
+		//    less.Insert(m[i])
+		//  end if
+		//  if list[i] > pivot
+		//     greater.Insert(m[i])
+		//  end if
+		//end for
+		//return Concatenate(QuickSort(less), equal, QuickSort(greater))
+		//end quicksort
 		//-----------------------------
 		//Output Variable --> InitialValue
 		//-----------------------------
