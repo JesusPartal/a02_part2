@@ -72,37 +72,40 @@ public class DivideAndConquerAlgorithms {
 	 * @param m: The MyList we want to display its elements.	  
 	 */	
 	public void recursiveDisplayElements(MyList<Integer> m){
+		try {
+			//-----------------------------
+			// I. SCENARIO IDENTIFICATION
+			//-----------------------------
+			int scenario;
 
-		//-----------------------------
-		// I. SCENARIO IDENTIFICATION
-		//-----------------------------
-		int scenario;
+			if (m.length() == 0)
+				scenario = 1;
+			else if (m.length() == 1)
+				scenario = 2;
+			else
+				scenario = 3;
 
-		if (m.length() == 0)
-		    scenario = 1;
-        else if (m.length() == 1)
-            scenario = 2;
-        else
-            scenario = 3;
-	
-		//-----------------------------
-		// II. SCENARIO IMPLEMENTATION 
-		//-----------------------------
-		switch(scenario){
-            case 1:
-                System.out.println("List is empty\n");
-				break;
-            case 2:
-                System.out.println(m.getElement(0) + "\n");
-                break;
-            case 3:
-                int e0 = m.getElement(0);
-                System.out.print(e0 + ", ");
-                m.removeElement(0);
-                recursiveDisplayElements(m);
-                m.addElement(0, e0);
-                break;
-		}			
+			//-----------------------------
+			// II. SCENARIO IMPLEMENTATION
+			//-----------------------------
+			switch (scenario) {
+				case 1:
+					System.out.println("List is empty\n");
+					break;
+				case 2:
+					System.out.println(m.getElement(0) + "\n");
+					break;
+				case 3:
+					int e0 = m.getElement(0);
+					System.out.print(e0 + ", ");
+					m.removeElement(0);
+					recursiveDisplayElements(m);
+					m.addElement(0, e0);
+					break;
+			}
+		} catch (NullPointerException err) {
+			System.out.println("Ops! Something went wrong: " + err);
+		}
 	}
 
 	//-------------------------------------------------------------------
