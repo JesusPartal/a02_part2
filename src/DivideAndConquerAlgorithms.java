@@ -302,13 +302,10 @@ public class DivideAndConquerAlgorithms {
 		//Output Variable --> InitialValue
 		//-----------------------------
 		MyList<Integer> res = null;
-		MyList<Integer> lesser =  null;
-		MyList<Integer> greater = null;
 
 		//-----------------------------
 		//SET OF OPS
 		//-----------------------------
-
 
 		//-----------------------------
 		// I. SCENARIO IDENTIFICATION
@@ -327,22 +324,14 @@ public class DivideAndConquerAlgorithms {
 		//-----------------------------
 		switch(scenario){
             case 1:
-                res = new MyDynamicList<>();
+            	res = new MyDynamicList<>();
                 break;
             case 2:
-                return m;
+            	res = m;
+                break;
             case 3:
-            	if (m.getElement(0) < m.getElement(m.length() -1)) {
-            		int partitionIndex = partition(m, m.getElement(0), m.getElement(m.length()-1));
-            		for (int i=0; i < m.length(); i++) {
-            			if (i < partitionIndex)
-            				lesser.addElement(i, m.getElement(i));
-            			else
-            				greater.addElement(i, m.getElement(i));
-					}
-					quickSort(lesser);
-            		quickSort(greater);
-				}
+            	res = sort(m, 0, m.length()-1);
+            	break;
 
 		}
 		//-----------------------------
@@ -351,24 +340,34 @@ public class DivideAndConquerAlgorithms {
 		return res;		
 	}
 
-	private int partition (MyList<Integer>m, int low, int high) {
-		int pivot = high;
-		int i = low - 1;
-
-		for (int j = low; j <= high; j++) {
+	//Aux function for sort
+	private int partition (MyList<Integer>m, int start, int end) {
+		int pivot = m.getElement(end);
+		//in the first iteration, i starts from -1
+		int i = start - 1;
+		for(int j = start; j <= end-1; j++) {
 			if(m.getElement(j) <= pivot) {
 				i++;
-				int temp = m.getElement(i);
-				m.addElement(i, m.getElement(j));
-				m.addElement(j, temp);
+				//swapping values
+				int ival = m.getElement(i);
+				int jval = m.getElement(j);
+				m.addElement(i, jval);
+				m.addElement(j, ival);
 			}
 		}
-
-		int temp2 = m.getElement(i+1);
-		m.addElement(i+1, high);
-		m.addElement(high, temp2);
-
-		return (i+1);
+		// put the pivot in the correct slot next
+		int ival = m.getElement(i+1);
+		m.addElement(end, ival);
+		m.addElement(i+1, pivot); //pivot value is placed in the correct slot
+		return i+1;
 	}
-	
+	//Aux function for quickSort
+	private MyList<Integer> sort(MyList m, int start, int end) {
+		if(start < end) {
+			int pp = partition(m, start, end); //index position of the correctly placed value
+			sort(m, start, pp-1); // sorts the left half of the range
+			sort(m, pp+1, end); // sorts the right half of the range
+		}
+		return m;
+	}
 }
