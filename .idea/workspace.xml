@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="524892f8-91f5-4c2b-9e2f-5e234ded3520" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DivideAndConquerAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivideAndConquerAlgorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a02_part2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/a02_part2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/DivideAndConquerAlgorithms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/MyDynamicList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/MyMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/MyNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/a02_part2/MyStaticList.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +54,10 @@
     <session id="335624262">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -97,17 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DivideAndConquerAlgorithms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1438">
-              <caret line="332" column="22" selection-start-line="332" selection-start-column="22" selection-end-line="332" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="176" column="49" selection-start-line="176" selection-start-column="48" selection-end-line="176" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -115,12 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
-              <folding>
-                <element signature="e#2991#2992#0" expanded="true" />
-                <element signature="e#3005#3006#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -153,7 +149,7 @@
     <option name="x" value="30" />
     <option name="y" value="24" />
     <option name="width" value="1449" />
-    <option name="height" value="1390" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -161,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,15 +175,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543790948084" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../a02_part3" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544033479382" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../a02_part1" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,10 +224,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="-22" width="1449" height="1390" extended-state="0" />
+    <frame x="30" y="24" width="1449" height="920" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2663787" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27285817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -240,7 +236,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26353502" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26463103" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39927405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -284,13 +280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DivideAndConquerAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1438">
-          <caret line="332" column="22" selection-start-line="332" selection-start-column="22" selection-end-line="332" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -298,14 +287,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DivideAndConquerAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="176" column="49" selection-start-line="176" selection-start-column="48" selection-end-line="176" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="e#2991#2992#0" expanded="true" />
-            <element signature="e#3005#3006#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -349,7 +341,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -366,7 +358,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
